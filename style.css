@@ -1,0 +1,95 @@
+/* input:checked + .wrapper{
+   
+    background-color: black;
+    color: white;
+   
+} */
+
+
+
+
+.wrapper {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+}
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(245, 246, 246);
+    position: sticky;
+    top: 0px;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1, h2, p, h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.nav-inner {
+    width: 100%;
+    
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+.nav-title {
+    width: 100%;
+}
+.nav-lesson {
+    
+    width: 270px;
+    height: 135px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 6px 25px #d0d0d0;
+}
+/* .less-head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+} */
+h3 {
+    color: black;
+    margin: 0 10px;
+}
+.less-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(221, 214, 214);
+}
+.btn {
+   
+    text-decoration: none;
+    text-align: center;
+    line-height: 29px;
+    width: 96px;
+    height: 31px;
+    border-radius: 4px;
+    border: 1px solid #02b3e4;
+    background-color: white;
+    color: rgb(47, 49, 54);
+    font-weight: bold;
+}
+.lesson-card-descr {
+    color: rgb(59, 59, 161);
+    margin-left: 50px;
+}
